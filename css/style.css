@@ -19,5 +19,8 @@ ul{
 
 /*styling the home*********************************************************************/
 .home{
-    background-image: url("https://res.cloudinary.com/glovoapp/w_700,h_360,f_auto,q_auto/Stores/fcroozktxajdh6qkalnn");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://res.cloudinary.com/glovoapp/w_700,h_360,f_auto,q_auto/Stores/fcroozktxajdh6qkalnn");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
