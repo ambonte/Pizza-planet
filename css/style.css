@@ -24,3 +24,7 @@ ul{
     background-size: cover;
     height: 100vh;
 }
+.pageTitle{
+    font-weight: bolder;
+    font-size: 60px;
+}
