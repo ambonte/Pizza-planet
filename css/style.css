@@ -1,9 +1,17 @@
-*{
-    font-family: 'Poppins', sans-serif;
+.navbar-light {
+background: transparent;
 }
-.home{
-    background-image: url("https://img.grouponcdn.com/deal/4ERwdrVqyChCvx74zptEkawmmcsz/4E-1000x599/v1/c700x420.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
+.navbar-brand{
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+.nav-link{
+    font-weight: bold;
+    font-size:15px;
+    
+}
+ul{
+    margin: 0 400px;
 }
