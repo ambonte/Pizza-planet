@@ -1,3 +1,4 @@
+/* styling the navigation bar********************************************************/
 .navbar-light {
 background: transparent;
 }
@@ -14,4 +15,9 @@ background: transparent;
 }
 ul{
     margin: 0 400px;
+}
+
+/*styling the home*********************************************************************/
+.home{
+    background-image: url("https://res.cloudinary.com/glovoapp/w_700,h_360,f_auto,q_auto/Stores/fcroozktxajdh6qkalnn");
 }
