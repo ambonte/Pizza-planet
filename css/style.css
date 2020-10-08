@@ -1,0 +1,9 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    background-image: url("https://img.grouponcdn.com/deal/4ERwdrVqyChCvx74zptEkawmmcsz/4E-1000x599/v1/c700x420.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
