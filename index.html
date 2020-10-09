@@ -33,7 +33,7 @@
                 <a class="nav-link text-white home2" href="#menu">MENU</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white home2" href="#">ORDER</a>
+                <a class="nav-link text-white home2" href="#order">ORDER</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white home2" href="#">CONTACT US</a>
@@ -52,7 +52,7 @@
          <br><br><br><br><br><br><br><br><br><br>
       <p class="h1 text-danger pageTitle">PIZZA PLANET</p>
        <p class="text-white">we serve delicious pizza at your place</p>
-       <button type="button" class="btn btn-outline-danger">Order Now</button>
+       <button type="button" class="btn btn-outline-danger"><a href="#order" class="text-white">Order Now</a></button>
        </div>
       
    </div> 
@@ -75,16 +75,16 @@
           
         </div>
       </div>
-      <br><br><br>
+      <br><br>
    
 </div>
 
        <!--end of about us section***********************************************-->
        <!--start of menu***********************************************-->
        <div class="container" id="menu">
-           <br><br>
+           <br>
         <p class="h1 font-weight-bold text-white text-center">MENU </p>
-        <br><br><br>
+        <br>
         <div class="row">
           <div class="col-sm">
             <p class="h3 text-danger text-white">SMALL PIZZA </p>
@@ -93,8 +93,8 @@
           </div>
           <div class="col-sm">
             <p class="h3 text-danger text-white">MEDIUM PIZA </p>
-            <p class="text-white">price:3000 Rwf</p>
-            <img src="https://lh3.googleusercontent.com/proxy/5p6EXNn2Y21MkDauCJtySzVR1vW1c_ECpag27GD_aopOiPnm2XbBXV3PChd4LW33MAT0InALFZlS13fY9YKs7HW9qNk6tOn19pFQaPNwyqAITfxHmLNvZ-HaZMGStQ" class="img-fluid" alt="Responsive image">
+            <p class="text-white">price:4000 Rwf</p>
+            <img src="https://lh3.googleusercontent.com/proxy/ehLNUpgx54K2i01-ivGBz-FYNu_G8-l6V9xCPfv-lPifh24nj4Vg1AFnRLEgfu5RZAbwm2dgyifosekfyoYvzCoAceH6f0bQN_9bfv3vEgSAAGuUpOOCzlnZ4VOeAg" class="img-fluid" alt="Responsive image">
           </div>
           <div class="col-sm">
             <p class="h3 text-danger text-white">LARGE PIZZA </p>
@@ -102,8 +102,53 @@
             <img src="https://d1s8393lsf2lpw.cloudfront.net/assets/categories/pizzas-1c4aa0c5c6666222c5d61930bb9e5501b8dddd9af24e450011df8daef6aabbd1.png" class="img-fluid" alt="Responsive image">
           </div>
         </div>
-      </div>
+       
+        <br><br><br><br><br><br><br><br><br>
+       
         <!--end of menu***********************************************-->
+        <!--starting of the order now section-->
+        <div class="container" id="order">    
+            <p class="h2 text-danger text-white text-center">ORDER PIZZA</p>   
+        <form>
+            
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select size</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option value="choice1">Small:1500 Rwf</option>
+                <option value="choice2">Medium:4000 Rwf</option>
+                <option value="choice3">Large:6000 Rwf</option>
+                
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select Crust</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option> Crispy</option>
+                  <option>Stuffed</option>
+                  <option>Gluten-free</option>
+                  
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Select Toppings</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Sausage</option>
+                  <option>Mushroom</option>
+                  <option>Extra Cheese</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Enter the number of Pizza's you want</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              
+              <button type="button" class="btn btn-danger">Order now</button>
+            
+          </form>
+          </div>
+
+
+         <!--starting of the order now section-->
 
 
 
