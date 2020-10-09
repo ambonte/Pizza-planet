@@ -21,8 +21,11 @@ ul{
 }
 
 
-a:hover{
-    color: #d9534f;
+.home1:hover{
+    
+    background-color: white;
+}
+.home2:hover{
     background-color:  #d9534f;
 }
 
