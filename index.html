@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto justify-content-end">
             <li class="nav-item active">
-              <a class="nav-link text-danger home1" href="">HOME<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-danger home1" href="#home">HOME<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white home2" href="#about">ABOUT</a>
@@ -110,15 +110,30 @@
         <div class="container" id="order">    
             <p class="h2 text-danger text-white text-center">ORDER PIZZA</p>   
        
-           <form action="">
+            <form>
+              
+              <div class="form-group">
+                <label for="exampleFormControlSelect1 ">Select Size</label>
+                <select class="form-control" id="size">
+                  <option value="">Choose option</option>
+                  <option value="5000">Large--5000 Rwf</option>
+                  <option value="3000">Medium--3000 Rwf</option>
+                  <option value="1000">Small--1000 Rwf</option>
+                </select>
+              </div>
+             
+            
+            </form>
 
-           </form>
+           
 </div>
+<br><br><br>
          <!--starting of the order now section-->
          <!--starting of contact information-->
          
-            <div class="container">
-                <p class="h1 contact" id="contact">CONTACT US</p>
+            <div class="container" id="contact">
+                <p class="h1 contact text-white text-center" >CONTACT US</p>
+                <br><br><br>
                 <div class="row">
                   <div class="col-sm">
                     <p class="h4">LOCATION</p>
@@ -131,13 +146,24 @@
                     <p class="h4">CONTACT INFORMATION</p>
                     <p>Tel: 0784688641</p>
                     <p>email:bbonteemma@gmail.com</p>
-                   <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-instagram"></a>
-
+                   
                   </div>
                   <div class="col-sm">
-                    <p class="h4">MAP</p>
+                    <p class="h4">Quick Links</p>
+                    
+                        <a class="nav-link text-white home2" href="#about">ABOUT</a>
+                      
+                      
+                          <a class="nav-link text-white home2" href="#menu">MENU</a>
+                        
+                        
+                          <a class="nav-link text-white home2" href="#order">ORDER</a>
+                        
+                    
+                          <a class="nav-link text-white home2" href="#contact">CONTACT US</a>
+                    
+                      
+                    
                   </div>
                 </div>
               
