@@ -107,8 +107,10 @@
        
         <!--end of menu***********************************************-->
         <!--starting of the order now section-->
-        <div class="container" id="order">    
+        <div class="container" id="order">  
+          <br>  
             <p class="h2 text-danger text-white text-center">ORDER PIZZA</p>   
+            
        
             <form>
               
@@ -125,21 +127,26 @@
                 <label for="exampleFormControlSelect1 ">Select Crust</label>
                 <select class="form-control" id="crust">
                   <option value="">Choose option</option>
-                  <option value="500">Crispy--500</option>
-                  <option value="400">Stuffed--400</option>
-                  <option value="200">Gluten-free--200</option>
+                  <option value="500">Crispy--500 Rwf</option>
+                  <option value="400">Stuffed--400 Rwf</option>
+                  <option value="200">Gluten-free--200 Rwf</option>
                 </select>
               </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1 ">Select Toppings</label>
                 <select class="form-control" id="toppings">
                   <option value="">Choose option</option>
-                                    <option value="50">Cheese--50</option>
-                                    <option value="100">pepperoni--100</option>
-                                    <option value="50">onions--50</option>
+                                    <option value="50">Cheese--50 Rwf</option>
+                                    <option value="100">pepperoni--100 Rwf</option>
+                                    <option value="50">onions--50 Rwf</option>
                 </select>
               </div>
-            
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Quantity</label>
+                <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max="" min="0">
+              </div>
+              <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+              onclick="getTotalAmount();"><strong>Checkout</strong></button>
             </form>
 
            
@@ -149,6 +156,7 @@
          <!--starting of contact information-->
          
             <div class="container" id="contact">
+              <br><br>
                 <p class="h1 contact text-white text-center" >CONTACT US</p>
                 <br><br><br>
                 <div class="row">
@@ -183,6 +191,7 @@
                     
                   </div>
                 </div>
+
               
          
          <!--end of contact information-->
