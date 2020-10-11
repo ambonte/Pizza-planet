@@ -48,7 +48,7 @@ ul{
     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(" https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTDkMGkebP29fQUoDNgf9g2OrhFurbuKb-cEA&usqp=CAU");
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+height: 120vh;
 }
 #order{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://image.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg");
@@ -56,7 +56,12 @@ height: 100vh;
     background-size: cover;
     height: 100vh;
 }
+.form-control{
+    background: transparent;
+}
 /*******************************************************************************/
 #contact{
     background-color: rgba(153, 51, 51,0.9);;
 }
+.table{
+    display: none;}
