@@ -75,34 +75,68 @@
           
         </div>
       </div>
-      <br><br>
+      <br>
    
 </div>
 
        <!--end of about us section***********************************************-->
        <!--start of menu***********************************************-->
+       <div class="container">
        <div class="container" id="menu">
            <br>
         <p class="h1 font-weight-bold text-white text-center">MENU </p>
-        <br>
+        
         <div class="row">
           <div class="col-sm">
             <p class="h3 text-danger text-white">SMALL PIZZA </p>
-            <p class="text-white">price:1500 Rwf</p>
-            <img src=" https://westdale.lavapizza.ca/wp-content/uploads/2017/01/single-pizza-pic.png" class="img-fluid" alt="Responsive image">
+            <p class="text-white">Price:1000</p>
+            <img src=" https://westdale.lavapizza.ca/wp-content/uploads/2017/01/single-pizza-pic.png" class="img-fluid pic1" alt="Responsive image">
           </div>
           <div class="col-sm">
             <p class="h3 text-danger text-white">MEDIUM PIZA </p>
-            <p class="text-white">price:4000 Rwf</p>
-            <img src="https://lh3.googleusercontent.com/proxy/ehLNUpgx54K2i01-ivGBz-FYNu_G8-l6V9xCPfv-lPifh24nj4Vg1AFnRLEgfu5RZAbwm2dgyifosekfyoYvzCoAceH6f0bQN_9bfv3vEgSAAGuUpOOCzlnZ4VOeAg" class="img-fluid" alt="Responsive image">
+            <p class="text-white">price:3000 Rwf</p>
+            <img src="https://www.torontopizza.com.cy/menu/latsia/381-thickbox_default/spinach-pizza-small.jpg" class="img-fluid" alt="Responsive image">
           </div>
           <div class="col-sm">
             <p class="h3 text-danger text-white">LARGE PIZZA </p>
-            <p class="text-white">price:6000 Rwf</p>
+            <p class="text-white">price:5000 Rwf</p>
             <img src="https://d1s8393lsf2lpw.cloudfront.net/assets/categories/pizzas-1c4aa0c5c6666222c5d61930bb9e5501b8dddd9af24e450011df8daef6aabbd1.png" class="img-fluid" alt="Responsive image">
           </div>
-        </div>
-       
+          </div>
+          <p class="h4 text-white">Our pizza have a variety of crusts and toppings.</p>
+          <button type="button" class="btn btn-danger tapp" id="tapp">Tap here to explore them</button>
+          <table class="table text-white">
+            <thead>
+              <tr>
+               
+                <th scope="col">Toppings</th>
+                <th scope="col">Crust</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               
+                
+                <td>Cheese--50</td>
+                <td>Crispy--500</td>
+              </tr>
+              <tr>
+               
+                <td>pepperoni--100</td>
+                <td>Stuffed--400</td>
+                
+              </tr>
+              <tr>
+               
+                <td>onions--50</td>
+                <td>Gluten--200</td>
+                
+              </tr>
+            </tbody>
+          </table>
+          
+       </div>
         <br><br><br><br><br><br><br><br><br>
        
         <!--end of menu***********************************************-->
@@ -115,7 +149,7 @@
             <form>
               
               <div class="form-group">
-                <label for="exampleFormControlSelect1 ">Select Size</label>
+                <label for="exampleFormControlSelect1 " class="text-white">Select Size</label>
                 <select class="form-control" id="size">
                   <option value="">Choose option</option>
                   <option value="5000">Large--5000 Rwf</option>
@@ -124,7 +158,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlSelect1 ">Select Crust</label>
+                <label for="exampleFormControlSelect1 " class="text-white">Select Crust</label>
                 <select class="form-control" id="crust">
                   <option value="">Choose option</option>
                   <option value="500">Crispy--500 Rwf</option>
@@ -133,7 +167,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlSelect1 ">Select Toppings</label>
+                <label for="exampleFormControlSelect1 " class="text-white">Select Toppings</label>
                 <select class="form-control" id="toppings">
                   <option value="">Choose option</option>
                                     <option value="50">Cheese--50 Rwf</option>
@@ -142,11 +176,11 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Quantity</label>
+                <label for="exampleFormControlInput1" class="text-white">Quantity</label>
                 <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max="" min="0">
               </div>
-              <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
-              onclick="getTotalAmount();"><strong>Checkout</strong></button>
+              <button class="bg-danger  mx-auto d-block submit" type="submit" id="submit2"
+              onclick="pizzaTotalAmount();"><strong>Checkout</strong></button>
             </form>
 
            
