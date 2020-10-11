@@ -17,7 +17,7 @@ function pizzaQuantity() {
 }
 function pizzaTotalAmount() {
     var totalAmount = (pizzaSize() + pizzaCrust() + pizzaToppings()) * pizzaQuantity();
-    alert("You have Ordered" + " " + pizzaQuantity("")  +  " pizza."  +  " "  +  " The Total Amount is  "  +  (totalAmount)  +  " "  + "Rwf." +" Thank you working with us!");
+    alert("You have Ordered" + " " + pizzaQuantity("") + " pizza." + " " + " The Total Amount is  " + (totalAmount) + " " + "Rwf." + " Thank you working with us!");
     prompt("Please enter your location")
     alert("You delivery fee is 500 Rwf!")
     alert("You order will be delivered shortly!!")
@@ -27,9 +27,8 @@ function pizzaTotalAmount() {
 /******TOGGLE**********************************************************/
 $(document).ready(function () {
     $(".tapp, .table").click(function () {
-      $("#tapp").toggle();
-      $(".table").toggle();
+        $("#tapp").toggle();
+        $(".table").toggle();
     });
-  });
-  
-  
+});
+
